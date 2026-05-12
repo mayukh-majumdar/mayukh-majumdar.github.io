@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Mayukh Majumdar | Portfolio</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            background-color: #f5f7fa;
+            color: #333;
+        }
+
+        header {
+            background-color: #1a237e;
+            color: white;
+            padding: 30px 20px 20px;
+            text-align: center;
+        }
+
+        .profiles {
+            display: flex;
+            justify-content: left;
+            gap: 15px;
+            flex-wrap: wrap;
+            margin: 20px 0;
+        }
+
+        .profiles a img {
+            width: 30px;
+            height: 30px;
+            filter: invert(0.3);
+        }
+
+        img.profile {
+            width: 160px;
+            height: 160px;
+            border-radius: 50%;
+            object-fit: cover;
+            margin-top: 10px;
+        }
+
+        section {
+            padding: 30px 20px;
+        }
+
+        article {
+            background: #c4c5bb;
+            padding: 20px;
+            margin-bottom: 20px;
+            border-radius: 5px;
+            box-shadow: 1px 2px 5px rgba(0, 0, 0, 0.1);
+        }
+
+        h1 {
+            margin-bottom: 10px;
+        }
+
+        h2 {
+            color: #1a237e;
+        }
+
+        footer {
+            background-color: #1a237e;
+            color: white;
+            text-align: center;
+            padding: 15px 0;
+        }
+
+        ul {
+            padding-left: 20px;
+        }
+
+        .contact {
+            display: flex;
+            justify-content: center;
+            gap: 15px;
+            flex-wrap: wrap;
+            margin: 20px 0;
+
+        }
+
+        .education-table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        .education-table th,
+        .education-table td {
+            border: 1px solid #000;
+            padding: 8px;
+            text-align: center;
+        }
+
+        .education-table thead {
+            background-color: #e0e0e0;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>Welcome to my portfolio!</h1>
+        <img src="25M2107_P.jpg" alt="Profile Picture"
+            class="profile">
+    </header>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <article>
+            <p>
+                I am Mayukh Majumdar, currently pursuing an <strong>MS by Research in Intelligent Systems</strong> from
+                <a href="https://www.cse.iitb.ac.in" target="_blank" rel="noopener"><strong>CSE@IITB</strong></a>.
+            </p>
+
+            <h3>Education</h3>
+            <table class="education-table">
+                <thead>
+                    <tr>
+                        <th>Level</th>
+                        <th>Institution</th>
+                        <th>Year of Completion</th>
+                        <th>Grade</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Secondary</td>
+                        <td>Ramakrishna Mission Vidyalaya Narendrapur</td>
+                        <td>2019</td>
+                        <td>90%</td>
+                    </tr>
+                    <tr>
+                        <td>Higher Secondary</td>
+                        <td>Jadavpur Vidyapith</td>
+                        <td>2021</td>
+                        <td>91%</td>
+                    </tr>
+                    <tr>
+                        <td>B.Tech in CSE</td>
+                        <td>Kalyani Government Engineering College</td>
+                        <td>2025</td>
+                        <td>8.3 / 10</td>
+                    </tr>
+                </tbody>
+            </table>
+        </article>
+    </section>
+
+    <section id="projects">
+        <h2>Projects</h2>
+        <article>
+            <h3>Featured Projects</h3>
+            <ul>
+                <li>
+                    <strong>Vision-Language Emotion-Aware Chatbot</strong><br>
+                    Built an inclusive ChatBOT integrating ASL gesture recognition (MobileNetV2 + MediaPipe),
+                    facial emotion detection (DeepFace) and emotion-conditioned response generation using
+                    fine-tuned FLAN-T5-large served via Ollama. Achieved 90.11% ASL accuracy with low-latency inference.
+                </li>
+
+                <li>
+                    <strong>Generative Conversational Agent</strong><br>
+                    Developed a context-aware ChatBOT using Gemini by Google, with prompt conditioning
+                    and post-processing for coherent dialogue.
+                </li>
+            </ul>
+        </article>
+    </section>
+
+    <section id="achievements">
+        <h2>Achievements</h2>
+        <article>
+            <h3>GATE 2025</h3>
+            <ul>
+                <li>Secured All India Ranking 609 at GATE (CS)</li>
+                <li>Secured All India Ranking 352 at GATE (DA)</li>
+            </ul>
+        </article>
+    </section>
+
+    <section id="contact">
+    <h2>Contact</h2>
+    <article>
+        <h3>Reach Out</h3>
+        <ul>
+            <li>Email: <a href="mailto:mayukhmajumdar@cse.iitb.ac.in">mayukhmajumdar@cse.iitb.ac.in</a></li>
+            <li>Profiles:</li>
+        </ul>
+        <div class="profiles">
+            &nbsp;<a href="https://linkedin.com/in/mayukh-majumdar" target="_blank" rel="noopener">
+                <img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/linkedin.svg" alt="LinkedIn">
+            </a>
+            <a href="https://github.com/mayukh-majumdar" target="_blank" rel="noopener">
+                <img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/github.svg" alt="GitHub">
+            </a>
+            <a href="https://x.com/mayukh_online" target="_blank" rel="noopener">
+                <img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/x.svg" alt="X">
+            </a>
+            <a href="https://instagram.com/thisis_mayukh" target="_blank" rel="noopener">
+                <img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/instagram.svg" alt="Instagram">
+            </a>
+            <a href="https://www.facebook.com/profile.php?id=100080431380255" target="_blank" rel="noopener">
+                <img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/facebook.svg" alt="Facebook">
+            </a>
+        </div>
+    </article>
+</section>
+
+
+    <footer>
+        <p>&copy; 2025 Mayukh Majumdar</p>
+    </footer>
+</body>
+</html>
